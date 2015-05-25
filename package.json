@@ -1,0 +1,27 @@
+{
+  "name": "node-epay",
+  "version": "1.0.0",
+  "description": "Node wrapper for ePays SOAP API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "na"
+  },
+  "keywords": [
+    "SOAP",
+    "epay"
+  ],
+  "author": "Emil Hagbarth",
+  "license": "MIT",
+  "dependencies": {
+    "merge": "^1.2.0",
+    "q": "^1.2.0",
+    "soap": "^0.8.0"
+  },
+  "devDependencies": {
+    "jest-cli": "^0.4.0"
+  }
+}
