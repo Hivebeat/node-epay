@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Hivebeat/node-epay.svg?branch=master)](https://travis-ci.org/Hivebeat/node-epay)
+
 # Node Epay
 A simple wrapper for epay's soap API
 Make sure that you are calling from an ip address that is opened on the epay panel
