@@ -37,6 +37,7 @@ var call = function (functionName, args) {
         } else {
             var fn = client[functionName];
             var arg = merge({
+                'merchantnumber': merchantnumber,
                 'epayresponse': epayresponse,
             }, args);
             if (!fn || fn === undefined) {
