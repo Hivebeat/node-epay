@@ -37,7 +37,6 @@ var call = function (functionName, args) {
         } else {
             var fn = client[functionName];
             var arg = merge({
-                'merchantnumber': 5990114,
                 'epayresponse': epayresponse,
             }, args);
             if (!fn || fn === undefined) {
@@ -51,7 +50,7 @@ var call = function (functionName, args) {
                 }
             });
         }
-        
+
     });
     return deferred.promise;
 };
