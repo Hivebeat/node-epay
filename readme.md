@@ -13,7 +13,7 @@ then(function (res) {
 ```
 
 ### Functions
-Get an overview of available functions here: (epay api)[http://tech.epay.dk/en/payment-web-service]
+Get an overview of available functions here: [epay api](http://tech.epay.dk/en/payment-web-service)
 
 ### License
 MIT
